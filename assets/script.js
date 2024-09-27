@@ -29,3 +29,7 @@ flecheDroite.addEventListener("click", function () {
 
 let bulletPoint = document.querySelector(".dots");
 let nbBulletPoint = slides.length;
+
+let li = document.createElement("li")
+let ul = document.getElementById("bullet_point")
+ul.appendChild(li)
