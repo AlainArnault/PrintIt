@@ -17,6 +17,7 @@ const slides = [
 	}
 ]
 
+//Création des points
 for (let i = 0; i < slides.length; i++) {
 	let point = document.createElement("li");
 	let listePoint = document.getElementById("bullet_point");
